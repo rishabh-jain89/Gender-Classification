@@ -1,0 +1,66 @@
+Epoch 1/30
+49/49 ━━━━━━━━━━━━━━━━━━━━ 16s 139ms/step - accuracy: 0.6316 - loss: 3.7235
+Epoch 2/30
+49/49 ━━━━━━━━━━━━━━━━━━━━ 3s 64ms/step - accuracy: 0.7431 - loss: 2.1638
+Epoch 3/30
+49/49 ━━━━━━━━━━━━━━━━━━━━ 3s 64ms/step - accuracy: 0.7827 - loss: 1.8941
+Epoch 4/30
+49/49 ━━━━━━━━━━━━━━━━━━━━ 3s 64ms/step - accuracy: 0.7944 - loss: 1.7732
+Epoch 5/30
+49/49 ━━━━━━━━━━━━━━━━━━━━ 3s 64ms/step - accuracy: 0.8101 - loss: 1.6777
+Epoch 6/30
+49/49 ━━━━━━━━━━━━━━━━━━━━ 3s 63ms/step - accuracy: 0.8217 - loss: 1.5755
+Epoch 7/30
+49/49 ━━━━━━━━━━━━━━━━━━━━ 3s 64ms/step - accuracy: 0.8341 - loss: 1.4969
+Epoch 8/30
+49/49 ━━━━━━━━━━━━━━━━━━━━ 3s 64ms/step - accuracy: 0.8447 - loss: 1.4015
+Epoch 9/30
+49/49 ━━━━━━━━━━━━━━━━━━━━ 3s 64ms/step - accuracy: 0.8437 - loss: 1.3154
+Epoch 10/30
+49/49 ━━━━━━━━━━━━━━━━━━━━ 3s 64ms/step - accuracy: 0.8696 - loss: 1.1998
+Epoch 11/30
+49/49 ━━━━━━━━━━━━━━━━━━━━ 3s 63ms/step - accuracy: 0.8786 - loss: 1.1353
+Epoch 12/30
+49/49 ━━━━━━━━━━━━━━━━━━━━ 3s 63ms/step - accuracy: 0.8820 - loss: 1.0437
+Epoch 13/30
+49/49 ━━━━━━━━━━━━━━━━━━━━ 3s 64ms/step - accuracy: 0.8989 - loss: 0.9858
+Epoch 14/30
+49/49 ━━━━━━━━━━━━━━━━━━━━ 3s 64ms/step - accuracy: 0.8954 - loss: 0.9092
+Epoch 15/30
+49/49 ━━━━━━━━━━━━━━━━━━━━ 3s 64ms/step - accuracy: 0.9115 - loss: 0.8641
+Epoch 16/30
+49/49 ━━━━━━━━━━━━━━━━━━━━ 3s 64ms/step - accuracy: 0.9114 - loss: 0.8170
+Epoch 17/30
+49/49 ━━━━━━━━━━━━━━━━━━━━ 3s 64ms/step - accuracy: 0.9327 - loss: 0.7538
+Epoch 18/30
+49/49 ━━━━━━━━━━━━━━━━━━━━ 3s 64ms/step - accuracy: 0.9372 - loss: 0.7039
+Epoch 19/30
+49/49 ━━━━━━━━━━━━━━━━━━━━ 3s 64ms/step - accuracy: 0.9450 - loss: 0.6604
+Epoch 20/30
+49/49 ━━━━━━━━━━━━━━━━━━━━ 3s 63ms/step - accuracy: 0.9597 - loss: 0.6227
+Epoch 21/30
+49/49 ━━━━━━━━━━━━━━━━━━━━ 3s 64ms/step - accuracy: 0.9633 - loss: 0.5944
+Epoch 22/30
+49/49 ━━━━━━━━━━━━━━━━━━━━ 3s 63ms/step - accuracy: 0.9601 - loss: 0.5703
+Epoch 23/30
+49/49 ━━━━━━━━━━━━━━━━━━━━ 3s 64ms/step - accuracy: 0.9644 - loss: 0.5397
+Epoch 24/30
+49/49 ━━━━━━━━━━━━━━━━━━━━ 3s 64ms/step - accuracy: 0.9714 - loss: 0.5206
+Epoch 25/30
+49/49 ━━━━━━━━━━━━━━━━━━━━ 3s 64ms/step - accuracy: 0.9688 - loss: 0.5102
+Epoch 26/30
+49/49 ━━━━━━━━━━━━━━━━━━━━ 3s 64ms/step - accuracy: 0.9718 - loss: 0.4895
+Epoch 27/30
+49/49 ━━━━━━━━━━━━━━━━━━━━ 3s 63ms/step - accuracy: 0.9701 - loss: 0.4791
+Epoch 28/30
+49/49 ━━━━━━━━━━━━━━━━━━━━ 3s 64ms/step - accuracy: 0.9718 - loss: 0.4677
+Epoch 29/30
+49/49 ━━━━━━━━━━━━━━━━━━━━ 3s 64ms/step - accuracy: 0.9734 - loss: 0.4578
+Epoch 30/30
+49/49 ━━━━━━━━━━━━━━━━━━━━ 3s 64ms/step - accuracy: 0.9827 - loss: 0.4404
+7/7 ━━━━━━━━━━━━━━━━━━━━ 2s 129ms/step - accuracy: 0.8872 - loss: 0.6226
+14/14 ━━━━━━━━━━━━━━━━━━━━ 1s 51ms/step
+Accuracy:  0.8910
+Precision: 0.9357
+Recall:    0.9180
+F1 Score:  0.9268
