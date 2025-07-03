@@ -1,5 +1,0 @@
-14/14 ━━━━━━━━━━━━━━━━━━━━ 1s 49ms/step
-Accuracy:  0.8910
-Precision: 0.9357
-Recall:    0.9180
-F1 Score:  0.9268
