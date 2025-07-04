@@ -11,8 +11,7 @@ from tensorflow.keras.layers import Conv2D,  MaxPooling2D, Dense, Flatten, Dropo
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.regularizers import l2
 from tensorflow.keras.callbacks import CSVLogger
-
-
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 
 #Defining dataset Paths
 train_path = "/home/rishabh-jain/Desktop/Syscom/New Dataset/Comys_Hackathon5/Task_A/train"
@@ -136,10 +135,33 @@ model.add(Dense(1, activation='sigmoid'))
 model.compile(loss = tf.keras.losses.BinaryCrossentropy(label_smoothing = 0.1), optimizer = 'adam', metrics = ['accuracy'])
 
 # Setting up logger before training
-csv_logger = CSVLogger('training_results.txt', append=False)
+csv_logger = CSVLogger('training_results_gender_classification.txt', append=False)
+
 
 # Training the Model
 model.fit(train_set, train_label, epochs = 30, batch_size = 64, callbacks = [csv_logger])
 
 # Save the Trained Model
 model.save("gender_classification.h5")
+
+# Making prediction on test set using loaded model
+preds = model.predict(train_set)
+preds_binary = (preds > 0.5).astype(int).flatten()
+
+# Calculating Accuracy, Precision, Recall and F1 score
+accuracy = accuracy_score(train_label, preds_binary)
+precision = precision_score(train_label, preds_binary)
+recall = recall_score(train_label, preds_binary)
+f1 = f1_score(train_label, preds_binary)
+
+# Creating a log string
+log = (
+    f"Accuracy:  {accuracy:.4f}\n"
+    f"Precision: {precision:.4f}\n"
+    f"Recall:    {recall:.4f}\n"
+    f"F1 Score:  {f1:.4f}\n"
+)
+
+# Write to file
+with open("validation_results_gender_classification.txt", "a") as f:
+    f.write(log)
