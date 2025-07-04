@@ -36,6 +36,24 @@ python testing_gender_classification.py
 
 - Computes accuracy, precision, recall, F1 score
 
+## 🎯 Evaluation Metrics (on train data)
+
+| Metric     | Value     |
+|------------|-----------|
+| Accuracy   | `0.9916`  |
+| Precision  | `0.9846`  |
+| Recall     | `0.9987`  |
+| F1-Score   | `0.9916`  |
+
+## 🎯 Evaluation Metrics (on validation)
+
+| Metric     | Value     |
+|------------|-----------|
+| Accuracy   | `0.9100`  |
+| Precision  | `0.9043`  |
+| Recall     | `0.9842`  |
+| F1-Score   | `0.9426`  |
+
 ## 🧠 Model Details
 - Architecture: CNN with Conv2D, MaxPooling, BatchNormalization, Dropout
 
@@ -47,3 +65,12 @@ python testing_gender_classification.py
 
 - Class Balancing: Synthetic augmentation of the underrepresented class (female)
 
+## 🤝 Contributors
+
+**Prakshay Saini**  
+B.Tech CSE, IIIT Guwahati  
+prakshay.saini23b@iiitg.ac.in
+
+**Rishab Jain**  
+B.Tech CSE, IIIT Guwahati  
+rishab.jain23b@iiitg.ac.in
